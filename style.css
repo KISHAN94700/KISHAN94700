@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;700&family=Roboto&family=Ubuntu&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Hex codes: Lavender #E2D1F9, Teal #317773 */
+body{
+    background-color: #E2D1F9;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;  
+}
+
+h1{
+    text-align: center;
+    margin: 2rem;
+    color: #1c635f;
+}
+form{
+    width: 400px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+#search-input{
+    border-radius: 4px;
+    text-align: center; 
+    width: 300px;
+    height: 35px;
+    margin-right: 10px;
+    font-weight: 300;
+    font-size: 20px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+#search-button{
+    border-radius: 4px;
+    width: 92px;
+    height: 35px;
+    color: #E2D1F9;
+    font-size: 20px;
+    background-color: #317773;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+
+.main-img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top:5rem;
+}
+.img-box{
+    border: 2px solid #7f6d96;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+.img-box img{
+    height: 280px;
+    width: 100%;
+    border-radius: 4px;
+}
+.img-box a{   
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+.img-box a:hover{
+    text-decoration: underline;
+    color: #317773;
+}
+.show-button{
+    margin: 3rem;
+}
+#showMore-button{
+    margin: auto;
+}
+.show-button button{
+    border-radius: 4px;
+    width: 120px;
+    height: 38px;
+    color: #E2D1F9;
+    font-size: 20px;
+    background-color: #317773;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    display: none;
+}
